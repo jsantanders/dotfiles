@@ -103,13 +103,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 alias zshconfig="nvim ~/.zshrc"
 alias ohmyzsh="nvim ~/.oh-my-zsh"
-alias a="php artisan"
-alias fresh="rm -rf storage/logs/laravel.log && rm -rf vendor/ && composer install && php artisan migrate:fresh --seed"
-alias analyse="vendor/bin/phpstan analyse"
-alias pint="./vendor/bin/pint"
-alias t="php artisan test --filter=$1"
-alias phpactor="~/.local/bin/phpactor"
-alias cat="bat"
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
 
 export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:${PATH}
